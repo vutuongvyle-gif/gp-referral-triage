@@ -17,7 +17,16 @@ services:
   hapi:
     image: hapiproject/hapi:latest
     ports: ["8080:8080"]
-
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      JAVA_TOOL_OPTIONS: "-Xmx3g"
+      spring.datasource.url: "jdbc:postgresql://postgres:5432/hapi"
+      spring.datasource.username: "triage"
+      spring.datasource.password: "triage"
+      spring.datasource.driverClassName: "org.postgresql.Driver"
+      spring.jpa.properties.hibernate.dialect: "ca.uhn.fhir.jpa.model.dialect.HapiFhirPostgresDialect"
   phoenix:
     image: arizephoenix/phoenix:latest
     ports: ["6006:6006", "4317:4317"]

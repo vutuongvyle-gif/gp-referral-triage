@@ -34,3 +34,4 @@ CREATE OR REPLACE VIEW v_decline_summary AS
 SELECT specialty, reason_code, count(*) AS n
 FROM decline_reasons GROUP BY specialty, reason_code
 ORDER BY specialty, n DESC;
+CREATE DATABASE hapi;
