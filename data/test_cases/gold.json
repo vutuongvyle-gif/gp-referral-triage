@@ -1,0 +1,2676 @@
+[
+  {
+    "case_id": "ORTH-001",
+    "specialty": "orthopaedics",
+    "patient_ref": "140985",
+    "nhi": "ZHU28AY",
+    "patient_names": [
+      "Tama Tupou",
+      "Tupou"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Tama Tupou (NHI ZHU28AY), date of birth 05/11/1967, phone 03-474-4431, address 73 Jenkins Approach, Crawfordhaven 6968.  \n\nMr Tupou is a 58-year-old male presenting with hip or knee osteoarthritis. He reports persistent pain and limited mobility in the affected joint, which has lasted well over three months. He has not found significant relief from self-managed measures. Weight-bearing X-ray of the affected joint was performed on 15/03/2024. The findings suggest moderate joint space narrowing and subchondral sclerosis. He has been managing with paracetamol and occasional ibuprofen, but continues to experience discomfort and functional limitation.  \n\nI recommend referral to the orthopaedics service for further assessment and potential intervention. Please contact me if you require any additional information.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-002",
+    "specialty": "orthopaedics",
+    "patient_ref": "203058",
+    "nhi": "ZAC29XH",
+    "patient_names": [
+      "Mikayla Taylor",
+      "Taylor"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Mikayla Taylor (NHI ZAC29XH), 80 years, date of birth 26 December 1945, phone (020) 453 4949, address 1 Horowhare Track, Middletoning 6218.  \n\nMs Taylor is an 80-year-old woman presenting with mild discomfort in her left hip and right knee. She reports intermittent pain, particularly after prolonged standing or walking, but no significant limitation in her daily activities. She has been managing her symptoms with over-the-counter analgesics and gentle exercise. The pain has been present for approximately two months, and while it is bothersome, it has not significantly impacted her quality of life or mobility. She remains independent in her activities of daily living and has no history of falls or major trauma.  \n\nShe is otherwise in good health, with no significant comorbidities. Investigations including X-ray and blood tests have been unremarkable. I recommend a referral to orthopaedics for further assessment and management.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "80-89",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-003",
+    "specialty": "orthopaedics",
+    "patient_ref": "162593",
+    "nhi": "ZJM82SP",
+    "patient_names": [
+      "Tama Ngata",
+      "Ngata"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Tama Ngata (NHI ZJM82SP), 61 years old, date of birth 11/08/1965, phone 06-233-2214, address Unit 35, 9 Freeth Street, Ngauruawa 7423.  \n\nMs Ngata has been experiencing hip and knee pain for over three months despite first-line management. Her symptoms have significantly impacted her daily activities, sleep and ability to work. She has been on a regular analgesia regimen and has completed a physiotherapy programme over the past 12 months. A weight-bearing X-ray of the right hip was performed on 12/04/2024, which showed evidence of osteoarthritis. She remains in pain and has limited mobility, particularly when walking or climbing stairs. I believe a referral to orthopaedics is appropriate to assess her condition and discuss further treatment options. I look forward to your prompt response and the opportunity to provide more detailed information if required.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "60-69",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-004",
+    "specialty": "orthopaedics",
+    "patient_ref": "82635",
+    "nhi": "ZWU84GN",
+    "patient_names": [
+      "Tama Lane",
+      "Lane"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Ms Tama Lane, NHI ZWU84GN, born 15/09/1986, phone (021) 9043006, address 35 Whakamakau Street, Coleburgh 8810.  \nMs Lane has been experiencing significant pain and stiffness in her right hip for the past three months, despite regular use of paracetamol and participation in a structured physiotherapy programme. She reports that the symptoms have progressively worsened, leading to difficulty with walking, climbing stairs, and sleeping. Her daily activities have become increasingly restricted, and she has had to reduce her work hours. She has been unable to engage in any form of exercise due to the pain. I have advised her to maintain a healthy weight and avoid activities that exacerbate her symptoms, but her condition continues to deteriorate. Given the impact on her quality of life, I am referring her for orthopaedic assessment to explore further management options.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-005",
+    "specialty": "orthopaedics",
+    "patient_ref": "73506",
+    "nhi": "ZJV68RM",
+    "patient_names": [
+      "Losa Chandler",
+      "Chandler"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Losa Chandler, NHI ZJV68RM, date of birth 14/05/1970, phone 7939685, address 1 McFarlane Road, Suzanneside 3614.  \n\nMs Chandler has been experiencing hip and knee osteoarthritis for more than three months despite first-line management. She reports significant impact on her daily activities, sleep and work. Weight-bearing X-ray of the right hip was performed on 12/04/2024, showing advanced joint space narrowing and subchondral sclerosis. She has been on a documented trial of analgesia including paracetamol and ibuprofen, along with a physiotherapy programme initiated on 05/05/2024. Her symptoms have not improved with these interventions.  \n\nI recommend referral to orthopaedics for further assessment and management. Please contact me if you require additional information.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-006",
+    "specialty": "orthopaedics",
+    "patient_ref": "35686",
+    "nhi": "ZSL33GH",
+    "patient_names": [
+      "Sione Gray",
+      "Gray"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Ms Sione Gray, NHI ZSL33GH, born 30 June 1954, phone 723-6851, address 6 Lowe-Russell Quay, Wekaroto 6417.  \n\nMs Gray has been suffering from hip or knee osteoarthritis for more than three months despite first-line management. Her symptoms have significantly impacted her daily activities, sleep and ability to work. She has been on a regular analgesia regimen and has participated in an exercise and physiotherapy programme over the last 12 months. A weight-bearing X-ray of the affected joint was performed on 15 August 2023. Given the persistent nature of her symptoms and their effect on her quality of life, I recommend she be referred to the orthopaedics service for further assessment and potential specialist intervention. Please feel free to contact me if you require any additional information.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "70-79",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-007",
+    "specialty": "orthopaedics",
+    "patient_ref": "163236",
+    "nhi": "ZLP77SD",
+    "patient_names": [
+      "Joshua Pedersen",
+      "Pedersen"
+    ],
+    "scenario": "ambiguous",
+    "ambiguous": true,
+    "referral_note": "Joshua Pedersen (NHI ZLP77SD), date of birth 11/10/1943, phone 224-7826, address 592 Charlotte Trail, Barrettville 9214.  \n\nMr Pedersen has been experiencing discomfort in his hip and knee, which has been affecting his mobility. He reports some stiffness and aching, particularly in the morning and after periods of inactivity. The symptoms have been intermittent and have not significantly impacted his daily activities, though he has noticed a gradual decrease in his ability to walk without pain. He has not undergone any specific investigations or treatment for this so far.  \n\nHe is otherwise well, with no history of falls or significant trauma. His general health is good, and he remains independent in his activities of daily living. He is currently taking paracetamol as needed for discomfort.  \n\nI recommend he be reviewed by the orthopaedics service to assess the joint involvement and explore further management options. Please feel free to contact me if you require any additional information.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "80-89",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-008",
+    "specialty": "orthopaedics",
+    "patient_ref": "168194",
+    "nhi": "ZGP74VH",
+    "patient_names": [
+      "Anna Tuhiwai",
+      "Tuhiwai"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Anna Tuhiwai (NHI ZGP74VH), born 11/12/1963, phone 759 6401, PO Box 84, Tauwhaka 4757  \nMs Tuhiwai  \nI am writing to refer you to the orthopaedics service for assessment of your hip or knee osteoarthritis. You have had symptoms for at least three months despite first-line management. Your condition has significantly impacted your daily activities, sleep and work. A weight-bearing X-ray of the affected joint was performed on 15/03/2024. You have also completed a documented trial of analgesia and an exercise and physiotherapy programme. Your symptoms have persisted and you are experiencing ongoing pain and reduced mobility. I believe a specialist assessment is necessary to determine the most appropriate management plan. Please let me know if you require any further information or support in arranging your referral. I look forward to your prompt response.  \nDr. [Name]  \nGeneral Practitioner",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "60-69",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-009",
+    "specialty": "orthopaedics",
+    "patient_ref": "180929",
+    "nhi": "ZNJ96PT",
+    "patient_names": [
+      "Terina Stace",
+      "Stace"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Ms Terina Stace, NHI ZNJ96PT, born 31 March 1969, phone (04) 361 8251, address 50 Kowhaimaunga Line, Tereroa 8256.  \n\nMs Stace has been experiencing mild discomfort in her left hip for approximately two months. She reports occasional stiffness and a slight ache, particularly after prolonged standing or walking. The symptoms have not significantly affected her daily activities, and she has not required any time off work. She has been taking paracetamol as advised and has made lifestyle adjustments such as reducing heavy lifting and incorporating gentle walking into her routine.  \n\nI have reviewed her general health and found no other concerning issues. Her pain remains mild and manageable, with no signs of significant joint damage or functional limitation. I believe she would benefit from a thorough assessment by the orthopaedics service to explore further management options. However, due to the short duration of her symptoms and their limited impact, this case does not meet the current acceptance criterion for referral.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-010",
+    "specialty": "orthopaedics",
+    "patient_ref": "119913",
+    "nhi": "ZJZ74PD",
+    "patient_names": [
+      "Sione Thomas",
+      "Thomas"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Sione Thomas (NHI ZJZ74PD), date of birth 15/12/1966, phone 03 905-3315, address PO Box 680, Rongomoko 8420.  \n\nMr Thomas has been experiencing pain and stiffness in his hip and knee for several months, which has progressively worsened and is now affecting his ability to perform daily activities. He has tried non-operative management including physiotherapy and pain relief, but symptoms remain unresolved. He is currently taking paracetamol and ibuprofen as required.  \n\nHe also has a suspected fracture after trauma, though this was not immediately apparent on initial imaging.  \n\nI recommend orthopaedic assessment to evaluate the extent of joint damage and determine the most appropriate treatment plan. Mr Thomas is a fit and well man with no significant medical history, and his current medications are well tolerated. He is available for follow-up and can attend appointments at short notice. Please let me know if any further information is required.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-011",
+    "specialty": "orthopaedics",
+    "patient_ref": "57752",
+    "nhi": "ZEA05HU",
+    "patient_names": [
+      "Lisa Parata",
+      "Parata"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Lisa Parata (NHI ZEA05HU), 54 years, born 27 December 1971, phone 021-377-8528, address 3 Brown Street, RD 8, Powaka 9512.  \n\nMs Parata has been experiencing significant pain and reduced mobility in her right hip due to osteoarthritis, which has persisted for more than three months despite first-line management. Her symptoms have had a notable impact on her daily activities, sleep and work. She has been on a regular analgesia regimen and has completed a structured physiotherapy programme over the past 12 months. A weight-bearing X-ray of the right hip was performed on 15 April 2024, confirming the presence of joint space narrowing and osteophyte formation. Given the severity of her condition and the limited response to conservative management, I recommend she be referred to the orthopaedics service for further assessment and potential intervention.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-012",
+    "specialty": "orthopaedics",
+    "patient_ref": "147196",
+    "nhi": "ZXH51DV",
+    "patient_names": [
+      "Mere Ngata",
+      "Ngata"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Mere Ngata (NHI ZXH51DV), 54 years old, date of birth 14/03/1972, phone (020) 4974395, address 41 Rototau Anchorage RD 5, Mokoararua 8140.  \n\nMr Ngata has been experiencing significant hip and knee pain for the past three months, despite a trial of analgesia and participation in a physiotherapy programme. The pain has progressively worsened and has had a substantial impact on his daily activities, including walking, climbing stairs and sleeping. He reports difficulty with prolonged standing and has had to reduce his working hours due to the pain.  \n\nHe has not responded adequately to conservative management and is now seeking further specialist assessment. I recommend referral to your orthopaedics service for evaluation and potential intervention. Please feel free to contact me if you require any further information.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-013",
+    "specialty": "orthopaedics",
+    "patient_ref": "28961",
+    "nhi": "ZHU28AY",
+    "patient_names": [
+      "Tama Tupou",
+      "Tupou"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Tama Tupou (NHI ZHU28AY), born 05/11/1967, phone 03-474-4431, address 73 Jenkins Approach, Crawfordhaven 6968.  \n\nMr Tupou has been experiencing significant pain and stiffness in his right hip for the past three months, despite regular use of paracetamol and participation in a structured physiotherapy programme. He reports that the symptoms have greatly affected his ability to walk long distances, climb stairs, and perform everyday tasks, leading to reduced sleep and difficulty maintaining his usual work schedule. He has also noted increasing discomfort during rest and has found it challenging to maintain his usual level of activity.  \n\nGiven the persistent nature of his symptoms and the impact on his quality of life, I believe a referral to the orthopaedics service would be appropriate for further assessment and management.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-014",
+    "specialty": "orthopaedics",
+    "patient_ref": "193078",
+    "nhi": "ZVZ12GE",
+    "patient_names": [
+      "Christopher Shannon",
+      "Shannon"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Christopher Shannon (NHI ZVZ12GE), date of birth 19/02/1945, phone +64 21 403-7129, address 254 Tangiroa Drive, Nigeling 5361.  \n\nMr Shannon presents with hip and knee osteoarthritis. He has had symptoms for over three months despite first-line management. His condition significantly impacts his daily activities, sleep and ability to work. He has been on a regular analgesia regimen and has participated in an exercise and physiotherapy programme, both documented in the last 12 months. A weight-bearing X-ray of the affected joint was performed on 15/08/2024. He reports persistent pain and limited mobility, which has progressively worsened. I recommend referral to the orthopaedics service for further assessment and management. His functional decline is evident, and he is experiencing considerable discomfort. I believe he would benefit from specialist evaluation and potential interventional or surgical options. Please arrange a timely appointment for him.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "80-89",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-015",
+    "specialty": "orthopaedics",
+    "patient_ref": "81054",
+    "nhi": "ZVZ12GE",
+    "patient_names": [
+      "Christopher Shannon",
+      "Shannon"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Christopher Shannon (NHI ZVZ12GE), date of birth 19/02/1945, phone +64 21 403-7129, address 254 Tangiroa Drive, Nigeling 5361.\n\nMr Shannon has been experiencing hip or knee osteoarthritis for well over three months. He reports persistent pain and reduced mobility in the affected joint. A weight-bearing X-ray of the affected joint was performed on 15/06/2024. He has not responded adequately to conservative management. His symptoms have progressively worsened, affecting his ability to perform daily activities. He is currently managing with regular analgesia and has been advised to maintain an active lifestyle. Given the duration and severity of his symptoms, I believe he would benefit from further assessment and possible intervention by the orthopaedics service. Please arrange an appointment at your earliest convenience.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "80-89",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-016",
+    "specialty": "orthopaedics",
+    "patient_ref": "151726",
+    "nhi": "ZCA58VA",
+    "patient_names": [
+      "Geoffrey Cox",
+      "Cox"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Geoffrey Cox (NHI ZCA58VA), date of birth 02/09/1969, phone (04) 4405377, address 782 Ngaurutangiwhero Crossing, Ponui 3617.  \nMr Cox has been presenting with hip and knee osteoarthritis for more than three months despite first-line management. His symptoms have significantly impacted his daily activities, sleep and work. He has been on a regular analgesia regimen and has completed a structured physiotherapy programme over the past 12 months. A weight-bearing X-ray of the right hip was performed on 15/06/2024, showing moderate joint space narrowing and subchondral sclerosis. He continues to experience pain and reduced mobility, limiting his ability to perform routine tasks. I recommend referral to orthopaedics for further assessment and potential intervention. I believe this referral clearly meets the acceptance criteria for specialist review. Please feel free to contact me if you require any additional information.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-017",
+    "specialty": "orthopaedics",
+    "patient_ref": "193660",
+    "nhi": "ZFH22TE",
+    "patient_names": [
+      "Kenneth Ngata",
+      "Ngata"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Kenneth Ngata (NHI ZFH22TE), date of birth 17/10/1976, phone 029-126-2218, address 205 Taumaunga Street, RD 2, Gill Hill 2415.  \nMr Ngata has been experiencing pain and stiffness in his hip and knee for more than three months. He reports difficulty with weight-bearing activities and has noticed a gradual worsening of symptoms. A weight-bearing X-ray of the affected joint was performed on 15/03/2024, which showed evidence of osteoarthritis. He has not responded adequately to conservative management. He is currently taking paracetamol and has been advised to maintain an active lifestyle. Given the persistent nature of his symptoms and the impact on his daily activities, I believe he would benefit from an orthopaedic assessment to explore further management options. I recommend he be referred to your orthopaedics service for review and possible intervention.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-018",
+    "specialty": "orthopaedics",
+    "patient_ref": "174856",
+    "nhi": "ZHN88EW",
+    "patient_names": [
+      "Kevin Parata",
+      "Parata"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Kevin Parata (NHI ZHN88EW), date of birth 07/03/1971, phone 027 448 4344, address 678 Tangiwhenua Crest, Waitapu 5797.\n\nMr Parata presents with mild discomfort in his left hip and occasional stiffness in both knees. He reports the symptoms have been present for about two months and are not significantly affecting his daily activities. He has been managing with regular walking, over-the-counter pain relief, and gentle stretching. There is no evidence of significant swelling, redness, or limitation in range of motion. His weight is 82 kg, blood pressure is 130/80 mmHg, and his HbA1c is 5.4%. X-rays of the hip and knees were normal. He has not required specialist intervention. Given the short duration and mild nature of his symptoms, I believe he does not meet the criteria for referral to orthopaedics at this stage. I recommend continued conservative management and review in six weeks.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-019",
+    "specialty": "orthopaedics",
+    "patient_ref": "51899",
+    "nhi": "ZYP00SD",
+    "patient_names": [
+      "Losa Ngata",
+      "Ngata"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Losa Ngata (NHI ZYP00SD), date of birth 28/05/1970, phone +64213522047, address 15 Awawai Terrace, Bakerland 7305.  \nMr Ngata has been experiencing significant pain and stiffness in his right hip over the past three months despite first-line management. He has been on regular analgesia and has followed a structured exercise and physiotherapy programme. His symptoms have had a considerable impact on his daily activities, including difficulty walking and climbing stairs, and have also affected his sleep and work performance. He reports persistent discomfort even at rest, with limited range of motion. He has tried various conservative measures without satisfactory relief. I believe he would benefit from a thorough orthopaedic assessment to explore further management options. Please arrange an appointment at your earliest convenience.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-020",
+    "specialty": "orthopaedics",
+    "patient_ref": "69335",
+    "nhi": "ZWB96AH",
+    "patient_names": [
+      "Aroha Anderson",
+      "Anderson"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Aroha Anderson, NHI ZWB96AH, date of birth 21/01/1956, phone (020) 4306738, address PO Box 19, Woodville 9707.  \n\nMr Anderson is a 70-year-old male presenting with mild hip and knee discomfort. He reports occasional stiffness and mild aching, particularly after prolonged standing or walking. The symptoms have been present for approximately two months and have not significantly impacted his daily activities. He has been managing with regular paracetamol and gentle exercise, with no major limitations in mobility.  \n\nHe has no history of significant trauma or previous joint surgery. His weight is 82 kg, blood pressure is 135/85 mmHg, and his BMI is 29.5. Investigations to date, including X-rays of the hip and knee, show mild joint space narrowing but no evidence of severe degenerative changes.  \n\nGiven the short duration and mild nature of his symptoms, I do not believe he meets the criteria for referral at this stage. However, I recommend continued monitoring and lifestyle modifications. Should his symptoms worsen or persist, I would be happy to refer for further assessment.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "70-79",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-021",
+    "specialty": "orthopaedics",
+    "patient_ref": "4715",
+    "nhi": "ZTD48CC",
+    "patient_names": [
+      "Aroha Read",
+      "Read"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Aroha Read (NHI ZTD48CC), 50 years, born 14/11/1975, phone +64-29-989-3252, address Suite 551, 82 Stephanie View, Maungarohewhitu 5081.  \n\nMs Read has been experiencing hip and knee osteoarthritis for over three months despite first-line management. She reports significant impact on her daily activities, including difficulty walking and sleeping. Weight-bearing X-ray of the right hip was performed on 10/04/2024, showing advanced degenerative changes. She has been on a documented trial of analgesia and an exercise programme with a physiotherapist since 01/03/2024. Her symptoms have not improved and she continues to experience pain and reduced mobility. I believe a referral to orthopaedics is appropriate for further assessment and management. Please let me know if you require any additional information.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-022",
+    "specialty": "orthopaedics",
+    "patient_ref": "62488",
+    "nhi": "ZHJ42LS",
+    "patient_names": [
+      "Mary Healy",
+      "Healy"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Mary Healy (NHI ZHJ42LS), date of birth 20/03/1965, phone +6468028385, address 230 Smith Road, RD 7, Williamsonborough 8289.\n\nMs Healy is a 61-year-old female presenting with hip or knee osteoarthritis. Her symptoms have persisted for more than three months. She reports pain and stiffness in the affected joint, which has gradually worsened over time. She experiences difficulty with daily activities such as walking and climbing stairs. A weight-bearing X-ray of the affected joint was performed on 15/04/2024. There is no evidence of significant weight loss or systemic illness. She is currently managing her symptoms with over-the-counter analgesia and has not engaged in a structured exercise programme. I believe she would benefit from an orthopaedic assessment to explore further management options. Please let me know if you require any additional information.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "60-69",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-023",
+    "specialty": "orthopaedics",
+    "patient_ref": "49554",
+    "nhi": "ZPX94HL",
+    "patient_names": [
+      "Lynette Clarke",
+      "Clarke"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Lynette Clarke (NHI ZPX94HL), date of birth 18/03/1978, phone 06 6980793, address 87 Blake Reserve, Williamsland 9898.  \nMs Clarke has been experiencing persistent hip or knee pain for well over three months. She reports difficulty with weight-bearing activities and has noticed progressive stiffness and reduced range of motion. A weight-bearing X-ray of the affected joint was performed on 15/06/2024, which showed evidence of osteoarthritis. She has not responded adequately to conservative management. The pain is now significantly impacting her daily activities and mobility. Ms Clarke is seeking further assessment and specialist care to explore appropriate treatment options. I recommend she be referred to the orthopaedics service for evaluation and possible intervention. Please feel free to contact me if further information is required.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "40-49",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-024",
+    "specialty": "orthopaedics",
+    "patient_ref": "24721",
+    "nhi": "ZZZ33SU",
+    "patient_names": [
+      "Mere Bailey",
+      "Bailey"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Mere Bailey (NHI ZZZ33SU), date of birth 01/03/1976, phone 022 801 6328, address 400 Tahiwhakakoro Street, Mount Bird Flats 8076.  \nMr Bailey has been suffering from hip or knee osteoarthritis for over three months despite first-line management. He has tried regular analgesia and an exercise programme with a physiotherapist, which has not provided sufficient relief. His symptoms have significantly impacted his daily activities, including difficulty walking and climbing stairs, and have affected his sleep and work performance. He is experiencing persistent pain and limited mobility, which is progressively worsening. I believe a referral to the orthopaedics service would be appropriate to explore further treatment options. Mr Bailey is seeking specialist assessment and management for his condition. I recommend he be seen as a priority case.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-025",
+    "specialty": "orthopaedics",
+    "patient_ref": "68256",
+    "nhi": "ZVT03NA",
+    "patient_names": [
+      "Wiremu Jenkins",
+      "Jenkins"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Wiremu Jenkins, NHI ZVT03NA, date of birth 28/09/1984, phone (09) 456 8783, address 9 Paton-O'Neill Road, RD 6, Matapuke 2672.\n\nMr Jenkins has been presenting with hip or knee osteoarthritis over the past few months. He reports pain that has gradually worsened, particularly with weight-bearing activities. He has tried non-steroidal anti-inflammatory drugs, which have provided some relief but not complete resolution of symptoms. He is currently managing with regular activity modification and occasional use of heat. He also has a history of mild hypertension, managed with lifestyle changes. \n\nHe also has a hot, swollen joint with fever, though this is not the main reason for referral. I believe he would benefit from a more detailed assessment by the orthopaedics service to determine the best management plan for his joint condition. Please feel free to contact me if you require any further information.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-026",
+    "specialty": "orthopaedics",
+    "patient_ref": "161578",
+    "nhi": "ZPX94HL",
+    "patient_names": [
+      "Lynette Clarke",
+      "Clarke"
+    ],
+    "scenario": "ambiguous",
+    "ambiguous": true,
+    "referral_note": "Lynette Clarke (NHI ZPX94HL), date of birth 18/03/1978, phone 06 6980793, address 87 Blake Reserve, Williamsland 9898.  \n\nMs Clarke has been experiencing discomfort in her hip and knee, which has been progressively affecting her daily activities. She reports difficulty with walking and climbing stairs, and the pain seems to worsen with activity. She has not had any significant trauma or previous injuries to these joints. She has not yet undergone any investigations or specific treatment for this issue. The symptoms have been ongoing, but I am unsure of the exact duration. She is currently managing with over-the-counter pain relief, but this is not providing sufficient relief. I believe she would benefit from a thorough assessment by the orthopaedics service to determine the best course of management. Please let me know if further information is required. Thank you for your attention to this matter.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "40-49",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-027",
+    "specialty": "orthopaedics",
+    "patient_ref": "216413",
+    "nhi": "ZUX62EE",
+    "patient_names": [
+      "Blair Powell",
+      "Powell"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Blair Powell (NHI ZUX62EE), 44 years old, date of birth 24/08/1982, phone 022 841 7146, address Unit 12, 70 Wallace Corner, Tahiweka 5110.  \n\nMr Powell presents with mild discomfort in his left hip and knee, which has persisted for approximately two months. He reports occasional stiffness and a slight reduction in his ability to walk long distances, but no significant limitation in daily activities. He has been taking paracetamol 1g twice daily and has had no adverse effects. He has not used any non-steroidal anti-inflammatory drugs due to concerns about gastrointestinal side effects. His symptoms have not worsened over time and do not significantly interfere with his work or personal life.  \n\nHe has no history of trauma or previous joint surgery. His weight is 92 kg, and he is physically active, playing football twice a week. I have advised him to maintain his activity level and continue with paracetamol as needed. Given the short duration and mild nature of his symptoms, I do not feel he meets the criteria for referral to orthopaedics at this stage.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "40-49",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-028",
+    "specialty": "orthopaedics",
+    "patient_ref": "28399",
+    "nhi": "ZYK51XP",
+    "patient_names": [
+      "Cody Woolley",
+      "Woolley"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Cody Woolley (NHI ZYK51XP), 54 years, date of birth 12/04/1972, phone +64-27-714-7379, address PO Box 99, Rangipukewhaka 9645.  \n\nMr Woolley has been experiencing significant pain and stiffness in his left hip over the past three months, despite a trial of analgesia and an exercise programme with physiotherapy. He reports that the symptoms have significantly impacted his daily activities, including walking and climbing stairs, and have also affected his sleep and ability to work. He has found it increasingly difficult to perform routine tasks without discomfort.  \n\nHe has been advised to avoid activities that exacerbate his symptoms and has made efforts to modify his lifestyle accordingly. Given the persistent nature of his symptoms and the impact on his quality of life, I believe a referral to orthopaedics for further assessment and management is appropriate. I look forward to your prompt review of his case.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-029",
+    "specialty": "orthopaedics",
+    "patient_ref": "116739",
+    "nhi": "ZTD48CC",
+    "patient_names": [
+      "Aroha Read",
+      "Read"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Aroha Read (NHI ZTD48CC), 50 years, date of birth 14/11/1975, phone +64-29-989-3252, address Suite 551, 82 Stephanie View, Maungarohewhitu 5081.  \n\nMs Read presents with hip or knee osteoarthritis. She has had symptoms for over three months despite first-line management. Her condition has significantly impacted her daily activities, sleep and work. A weight-bearing X-ray of the affected joint was performed on 12/04/2024. She has also completed a documented trial of analgesia and an exercise programme with physiotherapy, which was initiated on 05/06/2024.  \n\nGiven the persistent symptoms and the impact on her quality of life, I recommend referral to the orthopaedics service for further assessment and management. Please feel free to contact me if you require any additional information.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-030",
+    "specialty": "orthopaedics",
+    "patient_ref": "84190",
+    "nhi": "ZKY51JG",
+    "patient_names": [
+      "Emma Brown",
+      "Brown"
+    ],
+    "scenario": "ambiguous",
+    "ambiguous": true,
+    "referral_note": "Emma Brown, NHI ZKY51JG, date of birth 23/11/1972, phone 4524191, address PO Box 2, Pukehope 7079  \n\nMs Brown has been experiencing discomfort in her hip and knee for some time. She reports pain that has been gradually worsening, particularly with activity. She finds it difficult to walk long distances and has noticed some stiffness in the morning. There is no significant swelling or redness. She has not had any recent injuries or falls.  \n\nShe has not had any investigations or specific treatment yet. I believe she would benefit from a thorough assessment by the orthopaedics service. She is currently managing with over-the-counter pain relief, but this is not providing sufficient relief.  \n\nPlease arrange an appointment at your earliest convenience. I can be contacted at the number above if further information is needed.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-031",
+    "specialty": "orthopaedics",
+    "patient_ref": "80534",
+    "nhi": "ZQK75PM",
+    "patient_names": [
+      "Hannah Morris",
+      "Morris"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Hannah Morris (NHI ZQK75PM), 53 years, date of birth 28/08/1973, phone +64225770632, address Level 3, 8 Whangatanga Lane, Benneath 8601.  \n\nMs Morris presents with mild discomfort in her left hip and occasional knee pain, which has been present for about two months. She has tried over-the-counter pain relievers and mild exercise, which have provided some relief. The symptoms are not severe and do not significantly affect her daily activities. She is otherwise well, with no significant medical history. Her physical examination was unremarkable, and initial investigations including X-ray of the hip and knee were normal.  \n\nGiven the short duration of her symptoms and the lack of significant impact on her quality of life, I believe this case does not meet the criteria for referral to orthopaedics. I recommend continued monitoring and conservative management.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-032",
+    "specialty": "orthopaedics",
+    "patient_ref": "136221",
+    "nhi": "ZJW43DH",
+    "patient_names": [
+      "Jason Field",
+      "Field"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Jason Field, NHI ZJW43DH, date of birth 25/03/1947, phone +64 21 548 9513, address PO Box 87, Tangipo 9072.  \n\nMr Field is a 79-year-old male presenting with symptoms of hip or knee osteoarthritis. He has been experiencing increasing pain and stiffness in both knees, which has worsened over the past few months. He also reports occasional discomfort in his left hip, which has limited his ability to walk longer distances. He has no significant past medical history, though he does take paracetamol occasionally for mild pain.  \n\nHe also has a suspected fracture after trauma, though no imaging has been performed yet.  \n\nI recommend orthopaedic review to assess the extent of joint involvement and to discuss management options. Please contact me if further information is required.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "70-79",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-033",
+    "specialty": "orthopaedics",
+    "patient_ref": "70635",
+    "nhi": "ZYD99FN",
+    "patient_names": [
+      "Losa Wills",
+      "Wills"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Losa Wills (NHI ZYD99FN), date of birth 12/03/1964, phone 183-0469, address 7 Rongoiti Crescent, South Russellport 2375.  \n\nMr Wills has been experiencing mild discomfort in his left hip and knee for approximately two months. He reports occasional stiffness and aching, particularly after walking or standing for prolonged periods. The symptoms have not significantly impacted his daily activities, and he has not required assistance with mobility. He has been managing with over-the-counter analgesics and gentle exercise, as recommended. His pain levels are generally low, with no episodes of severe flare-up. No significant swelling or deformity is noted. His weight is 82 kg, blood pressure is 130/80 mmHg, and his HbA1c is 5.8%.  \n\nI recommend a review by the orthopaedics service to assess for early joint changes and explore further management options.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "60-69",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-034",
+    "specialty": "orthopaedics",
+    "patient_ref": "83746",
+    "nhi": "ZVZ72KW",
+    "patient_names": [
+      "Mere Thomas",
+      "Thomas"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Mere Thomas (NHI ZVZ72KW), date of birth 25/07/1981, phone 7524105, address Level 1, 22 Glenda Crossing, Ethanmouth 9284.  \n\nMs Thomas has been experiencing hip or knee osteoarthritis for several months, which has progressively limited her mobility and caused discomfort. She has tried conservative management including activity modification and over-the-counter analgesia with limited relief. Recent symptoms have worsened, affecting her ability to perform daily activities. She also has a hot, swollen joint with fever.  \n\nI recommend referral to the orthopaedics service for further assessment and management. She is otherwise well, with no significant comorbidities. She is currently on paracetamol 1g three times daily and ibuprofen 400mg twice daily. She is non-smoker, weight 72 kg, height 168 cm, BP 130/80 mmHg, and HbA1c 5.4%.  \n\nPlease arrange a timely appointment for her. Thank you for your attention.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-035",
+    "specialty": "orthopaedics",
+    "patient_ref": "81962",
+    "nhi": "ZYV60KK",
+    "patient_names": [
+      "Aroha Small",
+      "Small"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Aroha Small (NHI ZYV60KK), date of birth 23/07/1942, phone +64 21 4965652, address 45 Allerby Centre, Pukepo 2312.\n\nMs Small is an 84-year-old female presenting with mild discomfort in her left hip and right knee. She reports occasional stiffness and mild aching, particularly after prolonged standing or walking. The symptoms have been present for approximately two months and have not significantly interfered with her daily activities. She has been managing her symptoms with regular paracetamol and low-impact exercise, including gentle walking and leg lifts. There is no evidence of significant swelling, redness, or warmth in the affected joints. Her general mobility remains good, and she is independent in her activities of daily living. X-rays of the hip and knee were performed recently and showed no major structural abnormalities. I recommend further assessment by the orthopaedics service to explore management options for her ongoing symptoms.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "80-89",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-036",
+    "specialty": "orthopaedics",
+    "patient_ref": "147482",
+    "nhi": "ZUV05VY",
+    "patient_names": [
+      "Michael Healy",
+      "Healy"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Michael Healy (NHI ZUV05VY), date of birth 11/09/1968, phone 795 2145, address PO Box 3, Kawanuku 2047.  \n\nMr Healy presents with hip or knee osteoarthritis, with symptoms persisting for more than three months. He reports pain and reduced mobility in the affected joint, impacting his daily activities. A weight-bearing X-ray of the affected joint was performed on 15/03/2024, which shows evidence of joint space narrowing and osteophyte formation. He has not responded adequately to conservative management.  \n\nI recommend referral to the orthopaedics service for further assessment and consideration of appropriate treatment options. Please arrange a timely appointment for him.  \n\nDr. Sarah Thompson  \nGeneral Practitioner  \nKawanuku Primary Health Organisation",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-037",
+    "specialty": "orthopaedics",
+    "patient_ref": "50004",
+    "nhi": "ZRH25QL",
+    "patient_names": [
+      "Sione Ngata",
+      "Ngata"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Sione Ngata (NHI ZRH25QL), 41 years, born 23 December 1984, phone (022) 1554665, address Unit 38, 671 Fletcher Drive, Jaydenmouth 8588.  \n\nMr Ngata has been under my care for several months with progressive hip and knee pain, which has significantly impacted his mobility and daily activities. He has been diagnosed with hip and knee osteoarthritis, and despite conservative management, his symptoms have continued to worsen. He has also sustained a suspected fracture after trauma, which was identified on imaging but not yet confirmed.  \n\nI recommend he be referred to the orthopaedics service for a thorough assessment and to discuss the most appropriate treatment options. He is currently managing his symptoms with analgesia and physiotherapy, but further intervention is likely necessary. His medical history is otherwise unremarkable, and he has no known allergies.  \n\nPlease let me know if you require any further information.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-038",
+    "specialty": "orthopaedics",
+    "patient_ref": "136745",
+    "nhi": "ZZZ33SU",
+    "patient_names": [
+      "Mere Bailey",
+      "Bailey"
+    ],
+    "scenario": "ambiguous",
+    "ambiguous": true,
+    "referral_note": "Mere Bailey (NHI ZZZ33SU), 50 years, date of birth 01/03/1976, phone 022 801 6328, address 400 Tahiwhakakoro Street, Mount Bird Flats 8076.  \n\nMr Bailey has been experiencing discomfort in his hip and knee for some time. He reports a gradual onset of pain, particularly when walking or standing for prolonged periods. The pain is described as aching and sometimes stiff, especially in the morning. He has not had any significant trauma or injury. There is no history of swelling, redness, or fever. He has not undergone any investigations or specific treatment for this issue yet.  \n\nHe has been managing with rest and over-the-counter pain relief, but finds it increasingly difficult to perform daily activities. I believe a referral to the orthopaedics service would be appropriate to assess the extent of the problem and explore further treatment options. I look forward to your response and any further details you may require.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: fever, trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-039",
+    "specialty": "orthopaedics",
+    "patient_ref": "124516",
+    "nhi": "ZEW20XN",
+    "patient_names": [
+      "Aroha Jenkins",
+      "Jenkins"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Aroha Jenkins, NHI ZEW20XN, date of birth 23/07/1981, phone 214 2940, address 703 Maungakoro Line, Phillipshaven 8185.  \nMs Jenkins has been experiencing hip and knee pain for over three months despite first-line management. Her symptoms have significantly impacted her daily activities, sleep and work. She has had a weight-bearing X-ray of the right hip on 12/04/2024, which showed evidence of osteoarthritis. A trial of analgesia, including paracetamol and ibuprofen, was initiated on 05/05/2024, and she has been engaged in a physiotherapy programme since 10/06/2024. Her pain remains persistent and she is seeking further specialist assessment. I recommend a referral to the orthopaedics service for review and possible intervention. Please contact me if further information is required.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-040",
+    "specialty": "orthopaedics",
+    "patient_ref": "163923",
+    "nhi": "ZYP00SD",
+    "patient_names": [
+      "Losa Ngata",
+      "Ngata"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Losa Ngata (NHI ZYP00SD), date of birth 28/05/1970, phone +64213522047, address 15 Awawai Terrace, Bakerland 7305. Mr Ngata has been experiencing pain and stiffness in his hip and knee, which has progressively worsened over the past few months. He has had difficulty walking and performing daily activities due to the discomfort. He has been managing with over-the-counter pain relief, but this has not provided sufficient relief. He has also noticed that one of his joints has become hot, swollen and tender, accompanied by a low-grade fever. He has not had any significant past medical history, though he is overweight and has a family history of arthritis. His blood tests are within normal limits. I recommend a referral to the orthopaedics service for further assessment and management. I will provide any relevant medical records upon request. Thank you for your attention to this referral.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-041",
+    "specialty": "orthopaedics",
+    "patient_ref": "116180",
+    "nhi": "ZYP43JT",
+    "patient_names": [
+      "Sarah Parata",
+      "Parata"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Sarah Parata (NHI ZYP43JT), date of birth 07/08/1983, phone 7423884, address 705 Brown-Landon-Lane Amble, Motumanawaroa 8967.  \nMs Parata has been experiencing symptoms of hip or knee osteoarthritis for over three months despite first-line management. She has been on a regular analgesic regimen and has participated in an exercise and physiotherapy programme. These interventions have not provided sufficient relief, and her symptoms have significantly impacted her daily activities, sleep and work. She reports persistent pain and stiffness, which limits her ability to perform routine tasks. She is seeking further assessment and potential specialist intervention. I recommend referral to the orthopaedics service for evaluation and management. Please let me know if any additional information is required. Thank you for your attention to this matter.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-042",
+    "specialty": "orthopaedics",
+    "patient_ref": "182659",
+    "nhi": "ZYD99FN",
+    "patient_names": [
+      "Losa Wills",
+      "Wills"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Losa Wills (NHI ZYD99FN), date of birth 12/03/1964, phone 183-0469, address 7 Rongoiti Crescent, South Russellport 2375.  \n\nMr Wills presents with mild discomfort in his left hip and occasional stiffness in his right knee. He reports that the symptoms have been present for about two months and have not significantly affected his daily activities. He has been taking paracetamol as advised and has made lifestyle adjustments, including reduced walking and regular low-impact exercise. There is no evidence of significant swelling, redness or limitation in range of motion. His pain is generally manageable and does not interfere with sleep or work.  \n\nHe has no history of trauma or previous joint surgery. X-rays of the hip and knee were performed and showed no severe degenerative changes. I recommend a referral to orthopaedics for further assessment and management options. The symptoms do not meet the criteria for referral due to the short duration and minimal impact on function.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "60-69",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-043",
+    "specialty": "orthopaedics",
+    "patient_ref": "195770",
+    "nhi": "ZVZ72KW",
+    "patient_names": [
+      "Mere Thomas",
+      "Thomas"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Mere Thomas (NHI ZVZ72KW), born 25 July 1981, phone 7524105, address Level 1, 22 Glenda Crossing, Ethanmouth 9284.  \n\nMs Thomas has been experiencing significant pain and stiffness in her left hip for the past three months, despite regular use of paracetamol and a structured physiotherapy programme. She reports that the symptoms have greatly affected her ability to walk, sleep and perform daily tasks. She has found it increasingly difficult to stand for prolonged periods and has had to reduce her working hours.  \n\nShe has been managing with analgesia and a home-based exercise programme for several months, but her condition has not improved. I believe she would benefit from a thorough assessment by the orthopaedics team to explore further treatment options. I recommend a referral for specialist review and possible imaging to determine the best course of action.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-044",
+    "specialty": "orthopaedics",
+    "patient_ref": "50800",
+    "nhi": "ZTL03DV",
+    "patient_names": [
+      "Kelly Butler",
+      "Butler"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Kelly Butler (NHI ZTL03DV), date of birth 10/08/1962, phone 7229270, address PO Box 1, Motunui 2696  \nMs Butler presents with mild discomfort in her left hip and occasional stiffness in both knees. She reports the symptoms have been present for approximately two months and have not significantly impacted her daily activities. She has been managing with regular rest, over-the-counter analgesics, and gentle exercise. There is no evidence of severe pain, limitation of movement, or functional impairment. Her physical examination was unremarkable, with no swelling or deformity noted. Standard investigations including X-ray of the hip and knees were performed and showed early signs of osteoarthritis, but no significant joint space narrowing or subluxation. Given the short duration and mild nature of her symptoms, I do not believe she meets the criteria for referral to orthopaedics at this time. I recommend continued conservative management and monitoring.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "60-69",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-045",
+    "specialty": "orthopaedics",
+    "patient_ref": "24197",
+    "nhi": "ZJW43DH",
+    "patient_names": [
+      "Jason Field",
+      "Field"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Jason Field, NHI ZJW43DH, date of birth 25/03/1947, phone +64 21 548 9513, address PO Box 87, Tangipo 9072.  \nMr Field is a 79-year-old male presenting with hip or knee osteoarthritis. He has been experiencing pain and stiffness in his left knee for several months, which has progressively worsened. He reports difficulty walking and climbing stairs, and has had trouble sleeping due to discomfort. He has not responded well to over-the-counter pain relief and has limited mobility.  \nIn addition, he has had a hot, swollen joint with fever over the past week. He is otherwise fit and well, with no significant past medical history. He takes no regular medication.  \nHe is seeking further assessment and management for his joint symptoms. I believe a referral to the orthopaedics service would be appropriate to explore treatment options and determine the best course of action.  \nThank you for your attention to this referral.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "70-79",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-046",
+    "specialty": "orthopaedics",
+    "patient_ref": "181359",
+    "nhi": "ZWB96AH",
+    "patient_names": [
+      "Aroha Anderson",
+      "Anderson"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Aroha Anderson, NHI ZWB96AH, date of birth 21/01/1956, phone (020) 4306738, address PO Box 19, Woodville 9707.  \n\nMr Anderson is a 70-year-old man presenting with mild discomfort in his left hip and occasional stiffness in both knees. He reports the symptoms have been present for about two months and have not significantly affected his daily activities. He has been managing with over-the-counter pain relief and regular walks. He has no history of major trauma or previous joint surgery. His general health is good, with no significant comorbidities. He is currently taking paracetamol 1g twice daily as needed. His weight is 82 kg, and he is non-smoker.  \n\nI believe he would benefit from a thorough orthopaedic assessment to explore further management options. However, I do not feel his symptoms meet the threshold for urgent referral due to their short duration and minimal impact on function. I recommend a follow-up in three months or sooner if symptoms worsen.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "70-79",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-047",
+    "specialty": "orthopaedics",
+    "patient_ref": "140423",
+    "nhi": "ZYK51XP",
+    "patient_names": [
+      "Cody Woolley",
+      "Woolley"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Cody Woolley (NHI ZYK51XP), date of birth 12/04/1972, phone +64-27-714-7379, address PO Box 99, Rangipukewhaka 9645.  \nMr Woolley is a 54-year-old male presenting with hip or knee osteoarthritis. His symptoms have persisted for more than three months and have not responded adequately to conservative management. He has undergone a weight-bearing X-ray of the affected joint within the last 12 months. The findings suggest progressive joint degeneration, with evidence of narrowing and possible subchondral cysts. He reports significant pain and limited mobility, particularly with weight-bearing activities. His pain is primarily located in the right hip, though he has also noted discomfort in the left knee. He is currently managing with over-the-counter analgesia, but this has not provided sufficient relief. I recommend orthopaedic assessment to determine the appropriate management plan. Please contact me if you require any further information.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-048",
+    "specialty": "orthopaedics",
+    "patient_ref": "118917",
+    "nhi": "ZHX41BU",
+    "patient_names": [
+      "Sione Taylor",
+      "Taylor"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Sione Taylor (NHI ZHX41BU), 45 years, date of birth 22/02/1981, phone 021 2939909, address 809 Taylor Terrace, Nortonland 9713.  \n\nMr Taylor has been experiencing symptoms of hip or knee osteoarthritis for over three months despite first-line management. He reports significant impact on his daily activities, sleep and work. He has been following a documented trial of analgesia and an exercise programme with physiotherapy since July 2023. A weight-bearing X-ray of the affected joint was performed on 15 August 2023. His symptoms have not improved with ongoing conservative management. He is now seeking further assessment and potential specialist intervention. I recommend a referral to the orthopaedics service for further evaluation and management. Please feel free to contact me if you require any additional information.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-049",
+    "specialty": "orthopaedics",
+    "patient_ref": "212454",
+    "nhi": "ZRH58TG",
+    "patient_names": [
+      "Philippa Fa'asalele",
+      "Fa'asalele"
+    ],
+    "scenario": "ambiguous",
+    "ambiguous": true,
+    "referral_note": "Philippa Fa'asalele (NHI ZRH58TG), date of birth 20/01/1944, phone 027 715 4100, address 35 Steele Court, Teretangi 8504.  \n\nMs Fa’asalele has been experiencing discomfort in her hip and knee, which has been affecting her mobility. She reports some stiffness and aching, particularly after walking or resting. The symptoms have been intermittent and she has not sought further medical attention previously. She is otherwise well, with no significant comorbidities. She takes no regular medications.  \n\nShe is active in her daily routine but finds it increasingly difficult to manage household tasks without assistance. I recommend a review by the orthopaedics service to assess the extent of joint involvement and explore appropriate management options. She is keen to have a more definitive evaluation and is available for an appointment at your earliest convenience. Please let me know if any additional information is required.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "80-89",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-050",
+    "specialty": "orthopaedics",
+    "patient_ref": "76471",
+    "nhi": "ZRQ02CS",
+    "patient_names": [
+      "Matthew Dillon",
+      "Dillon"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Matthew Dillon (NHI ZRQ02CS), date of birth 09/03/1978, phone +64-4-351-9398, address 72 Mokowhero Cross RD 8, Wairangi 6264.\n\nMr Dillon has been under my care for several months with symptoms of hip and knee pain, which have progressively worsened. He reports stiffness, reduced range of motion, and difficulty with daily activities. His pain is primarily in both hips and knees, with some swelling noted in the right knee. He has also mentioned that his right knee has been hot and swollen with a low-grade fever over the past few days. He has not had any significant trauma or prior joint surgery.\n\nHe is a 48-year-old male, weighing 92 kg, with a BMI of 31. His blood tests are within normal limits, and his blood pressure is stable at 130/80 mmHg. I recommend he be referred to the orthopaedics service for further assessment and management of his joint symptoms.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "40-49",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-051",
+    "specialty": "orthopaedics",
+    "patient_ref": "6893",
+    "nhi": "ZHX41BU",
+    "patient_names": [
+      "Sione Taylor",
+      "Taylor"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Sione Taylor, NHI ZHX41BU, date of birth 22/02/1981, phone 021 2939909, address 809 Taylor Terrace, Nortonland 9713.  \nMr Taylor has been experiencing hip or knee osteoarthritis for at least three months despite first-line management. His symptoms have significantly impacted his daily activities, sleep and work. A weight-bearing X-ray of the affected joint was performed on 15/04/2024. He has been on a documented trial of analgesia and an exercise programme with physiotherapy since 01/03/2024. His pain has not responded adequately to conservative measures. I believe a referral to the orthopaedics service is appropriate for further assessment and management. Please arrange a timely appointment for Mr Taylor. I am happy to provide any additional information if required.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-052",
+    "specialty": "orthopaedics",
+    "patient_ref": "188495",
+    "nhi": "ZRQ02CS",
+    "patient_names": [
+      "Matthew Dillon",
+      "Dillon"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Matthew Dillon, NHI ZRQ02CS, date of birth 09/03/1978, phone +64-4-351-9398, address 72 Mokowhero Cross RD 8, Wairangi 6264.\n\nMr Dillon presents with mild discomfort in his left hip, which has been present for approximately two months. He reports occasional stiffness and mild aching, particularly after prolonged standing or walking. There is no significant limitation in his ability to perform daily activities, and he continues to work as a teacher with minimal adjustment. He has been using over-the-counter pain relief and has made lifestyle changes including regular exercise and weight management. His symptoms have not progressed to the point of requiring further intervention. He remains active and has not experienced significant functional impairment. I recommend a thorough orthopaedic assessment to explore further management options.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "40-49",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-053",
+    "specialty": "orthopaedics",
+    "patient_ref": "144349",
+    "nhi": "ZJQ31CD",
+    "patient_names": [
+      "Connor Nielsen",
+      "Nielsen"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Connor Nielsen, NHI ZJQ31CD, date of birth 03/12/1956, phone 06 6468071, address PO Box 81, Sinclairport 2425.\n\nMr Nielsen has been experiencing significant discomfort in his left hip and knee due to osteoarthritis, which has persisted for over three months despite first-line management. He has been on a regular analgesic regimen and has completed a structured physiotherapy programme aimed at improving mobility and reducing pain. His symptoms have had a considerable impact on his daily activities, sleep and ability to work. He reports difficulty with walking long distances, climbing stairs and performing routine household tasks. His condition has led to increased fatigue and disrupted sleep patterns. Given the ongoing nature of his symptoms and the substantial effect on his quality of life, I recommend referral to the orthopaedics service for further assessment and potential intervention.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "60-69",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-054",
+    "specialty": "orthopaedics",
+    "patient_ref": "180280",
+    "nhi": "ZVT03NA",
+    "patient_names": [
+      "Wiremu Jenkins",
+      "Jenkins"
+    ],
+    "scenario": "ambiguous",
+    "ambiguous": true,
+    "referral_note": "Wiremu Jenkins (NHI ZVT03NA), 42 years, born 28/09/1984, phone (09) 456 8783, address 9 Paton-O'Neill Road, RD 6, Matapuke 2672.\n\nMr Jenkins has been experiencing discomfort in his hip and knee for some time. He reports a gradual onset of pain that has become more frequent and affects his daily activities. The pain is described as aching and worsens with movement. He has not had any significant trauma or injury. He has not had any major investigations or treatment so far. He is currently managing with over-the-counter pain relief, but this has not provided sufficient relief. He is seeking further assessment and possible specialist input. He is otherwise well, with no significant medical history. He is active and works in a manual role, which may contribute to his symptoms. I recommend a referral to the orthopaedics service for further evaluation and management.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-055",
+    "specialty": "orthopaedics",
+    "patient_ref": "68905",
+    "nhi": "ZNJ96PT",
+    "patient_names": [
+      "Terina Stace",
+      "Stace"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Ms Terina Stace, NHI ZNJ96PT, date of birth 31/03/1969, phone (04) 361 8251, address 50 Kowhaimaunga Line, Tereroa 8256.  \n\nMs Stace has been experiencing symptoms of hip or knee osteoarthritis for over three months despite first-line management. She has been on a regular analgesic regimen and has participated in an exercise and physiotherapy programme, both of which were initiated in April 2024. These interventions have not provided sufficient relief, and her symptoms are significantly affecting her ability to perform daily activities, sleep, and maintain her work schedule. She reports persistent pain and stiffness, particularly in the right knee, which limits her mobility and causes discomfort during routine tasks. Given the ongoing impact of her condition, I recommend she be referred to the orthopaedics service for further assessment and potential specialist intervention.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-056",
+    "specialty": "orthopaedics",
+    "patient_ref": "50569",
+    "nhi": "ZJM82SP",
+    "patient_names": [
+      "Tama Ngata",
+      "Ngata"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Tama Ngata (NHI ZJM82SP), date of birth 11/08/1965, phone 06-233-2214, address Unit 35, 9 Freeth Street, Ngauruawa 7423.  \n\nMs Ngata presents with hip or knee osteoarthritis symptoms that have persisted for well over three months. She reports pain and stiffness in the affected joint, which has progressively worsened and is now impacting her daily activities. A weight-bearing X-ray of the affected joint was performed on 15/03/2024, showing evidence of joint space narrowing and osteophyte formation consistent with osteoarthritis.  \n\nShe has not responded adequately to conservative management, and I believe she would benefit from an orthopaedic assessment to explore further treatment options. I recommend a referral to the orthopaedics service for evaluation and possible intervention. Please feel free to contact me if you require any additional information.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "60-69",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-057",
+    "specialty": "orthopaedics",
+    "patient_ref": "98376",
+    "nhi": "ZHY20KJ",
+    "patient_names": [
+      "Sione Huddleston",
+      "Huddleston"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Sione Huddleston (NHI ZHY20KJ), date of birth 03/04/1962, phone 09-132-5250, address Flat 49, 58 Burns Beach Road, Jamesbury 1870.  \nMr Huddleston is a 64-year-old male presenting with hip or knee osteoarthritis. His symptoms have persisted for more than three months and have not responded adequately to conservative management. He reports significant pain and reduced mobility, particularly when bearing weight. A weight-bearing X-ray of the affected joint was performed on 15/08/2024, which confirmed the presence of osteoarthritis. He has not received a documented trial of analgesia or an exercise or physiotherapy programme. Given the duration and severity of his symptoms, I believe referral to the orthopaedics service would be appropriate for further assessment and potential management. I recommend he be seen as a priority case. Please contact me if further information is required.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "60-69",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-058",
+    "specialty": "orthopaedics",
+    "patient_ref": "99478",
+    "nhi": "ZCH14QD",
+    "patient_names": [
+      "Catherine Marfell",
+      "Marfell"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Catherine Marfell (NHI ZCH14QD), born 16 October 1960, phone 6675289, address 285 Taurua Street, Kawatangi 6152. I refer Ms Marfell for orthopaedic assessment. She has been experiencing hip or knee osteoarthritis for over three months despite first-line management. She has been on regular analgesia and has followed an exercise and physiotherapy programme. These interventions have not significantly improved her symptoms. Her condition has had a significant impact on her daily activities, sleep and work. She reports pain and stiffness that limit her mobility and interfere with her ability to perform routine tasks. She is currently unable to walk long distances or climb stairs without discomfort. I believe a referral to orthopaedics is appropriate to explore further treatment options. Please arrange an appointment at your earliest convenience.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "60-69",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-059",
+    "specialty": "orthopaedics",
+    "patient_ref": "71224",
+    "nhi": "ZCU88WM",
+    "patient_names": [
+      "Rebecca Fisher",
+      "Fisher"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Rebecca Fisher (NHI ZCU88WM), 55 years, born 06/09/1971, phone (027) 7204899, address Suite 644, 8 Kawawaiwhenua Street, Wakamotupo 7560.  \n\nMs Fisher presents with hip and knee osteoarthritis. She has had symptoms for over three months despite first-line management. Her condition significantly impacts her daily activities, sleep and work. She has been on a structured exercise and physiotherapy programme for the past six months, with documented progress. A weight-bearing X-ray of the right hip was performed on 15/04/2024, showing advanced joint space narrowing and subchondral sclerosis. She has also been on a regular analgesia regimen, including paracetamol and ibuprofen, with limited relief. Given the severity of her symptoms and the ongoing impact on her quality of life, I refer Ms Fisher for orthopaedic assessment and possible further intervention.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-060",
+    "specialty": "orthopaedics",
+    "patient_ref": "72996",
+    "nhi": "ZQY19PE",
+    "patient_names": [
+      "Aroha Fisher",
+      "Fisher"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Aroha Fisher (NHI ZQY19PE), born 28 May 1954, phone +64202339740, address Unit 10, 3 Kerr Street, Waitangi 9518.  \n\nMs Fisher is a 72-year-old female presenting with mild discomfort in her right hip and knee, which has been ongoing for approximately two months. She reports occasional stiffness and a slight ache, particularly after prolonged standing or walking. The symptoms have not significantly impacted her daily activities, and she has been managing them with over-the-counter pain relief and gentle exercise. There is no evidence of recent trauma or significant swelling. She has not required any prescription medication or specialist input to date.  \n\nHer general health is good, with no chronic conditions. She remains mobile and independent. Given the short duration of symptoms and minimal impact on her function, I do not feel she meets the criteria for referral to orthopaedics at this stage. However, I recommend continued monitoring and conservative management.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "70-79",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-061",
+    "specialty": "orthopaedics",
+    "patient_ref": "167649",
+    "nhi": "ZVU38NQ",
+    "patient_names": [
+      "Brooke Barnes",
+      "Barnes"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Brooke Barnes (NHI ZVU38NQ), date of birth 12/05/1965, phone 269-2845, address 8 Motungauru Terrace, RD 8, Broughanhaven 5816.  \n\nMs Barnes has been experiencing symptoms of hip or knee osteoarthritis for more than three months despite first-line management. She has been on a regular analgesic regimen and has participated in an exercise and physiotherapy programme. These interventions have not provided sufficient relief, and her symptoms have significantly impacted her daily activities, sleep and work. She reports persistent pain and limited mobility, which has led to reduced participation in routine tasks and difficulty with stair climbing.  \n\nGiven the persistent nature of her symptoms and the impact on her quality of life, I recommend she be referred to the orthopaedics service for further assessment and potential intervention. I trust the service will provide the appropriate care and support for her ongoing needs.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "60-69",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-062",
+    "specialty": "orthopaedics",
+    "patient_ref": "42837",
+    "nhi": "ZEJ14DJ",
+    "patient_names": [
+      "Losa Ngata",
+      "Ngata"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Losa Ngata (NHI ZEJ14DJ), date of birth 18/03/1952, phone (029) 978-9611, address 359 Jackson Circle, Rotokiwi 6269.  \n\nMr Ngata is a 74-year-old male with mild hip and knee discomfort, primarily affecting his right knee. He reports intermittent pain and stiffness, particularly after walking or standing for prolonged periods. The symptoms have been present for approximately two months and have not significantly impacted his daily activities. He has been managing with over-the-counter analgesics and gentle exercise, which have provided some relief. There is no marked limitation in mobility or function.  \n\nOn examination, there is mild tenderness over the right knee joint, with no gross deformity or instability. Range of motion is within normal limits. No signs of acute inflammation or infection are present. X-rays of the right knee show early changes consistent with osteoarthritis, but no significant joint space narrowing or subluxation.  \n\nGiven the short duration and mild nature of his symptoms, and the absence of significant functional limitation, I believe he does not currently meet the criteria for referral to orthopaedics.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "70-79",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-063",
+    "specialty": "orthopaedics",
+    "patient_ref": "160550",
+    "nhi": "ZBM26XM",
+    "patient_names": [
+      "Joanne Lloyd",
+      "Lloyd"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Joanne Lloyd (NHI ZBM26XM), date of birth 17/10/1986, phone (03) 716 1369, address 79 Taunuku Street, Thomastown 6229.  \nMs Lloyd presents with hip or knee osteoarthritis. Symptoms have persisted for well over three months. She reports increasing pain and stiffness, particularly when bearing weight. The pain interferes with her daily activities and limits her mobility. She has difficulty walking longer distances and climbing stairs. A weight-bearing X-ray of the affected joint was performed on 15/04/2024, showing evidence of joint space narrowing and osteophyte formation.  \nMs Lloyd is currently on regular paracetamol and has engaged in a home-based exercise programme. Despite this, her symptoms remain unresolved. I recommend she be reviewed by the orthopaedics service for further assessment and potential intervention. Please contact me if you require any additional information.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "40-49",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-064",
+    "specialty": "orthopaedics",
+    "patient_ref": "31731",
+    "nhi": "ZHG24TQ",
+    "patient_names": [
+      "Maddison McDowall",
+      "McDowall"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Maddison McDowall (NHI ZHG24TQ), date of birth 02/01/1962, phone +64 29 5902787, address PO Box 59, Christopherside 9590.  \n\nMs McDowall presents with hip and knee osteoarthritis, which has been symptomatic for over three months despite first-line management. She has been on regular analgesia and has participated in an exercise and physiotherapy programme. Her symptoms have significantly impacted her daily activities, sleep and work. She reports persistent pain and stiffness, limiting her ability to walk and perform routine tasks. She has difficulty with stairs and standing for prolonged periods. She has also experienced disrupted sleep due to pain. Given the severity of her symptoms and the limited response to conservative management, I believe she would benefit from a specialist orthopaedic assessment. Please arrange a timely appointment for her.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "60-69",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-065",
+    "specialty": "orthopaedics",
+    "patient_ref": "146390",
+    "nhi": "ZTB95LJ",
+    "patient_names": [
+      "Aroha Prentice",
+      "Prentice"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Aroha Prentice (NHI ZTB95LJ), 64 years, date of birth 31/03/1962, phone (022) 4221969, address 317 Cooke-Jones Park RD 1, Lucasings 3386.  \n\nMr Prentice has been experiencing significant pain and stiffness in his right hip and knee for the past three months, despite completing a trial of analgesia and participating in an exercise and physiotherapy programme. His symptoms have markedly affected his ability to walk, perform daily activities, and maintain his usual work routine. He reports difficulty sleeping due to discomfort and has noticed increasing pain during weight-bearing activities. His condition has progressively worsened, and he is now finding it challenging to manage at home. I recommend further assessment by the orthopaedics service to explore appropriate treatment options. He is a fit and well man with no significant medical history. I believe he would benefit from a specialist review to determine the best course of management.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "60-69",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-066",
+    "specialty": "orthopaedics",
+    "patient_ref": "35458",
+    "nhi": "ZUV05VY",
+    "patient_names": [
+      "Michael Healy",
+      "Healy"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Michael Healy (NHI ZUV05VY), date of birth 11/09/1968, phone 795 2145, address PO Box 3, Kawanuku 2047.  \n\nMr Healy has been experiencing symptoms of hip or knee osteoarthritis for over three months despite first-line management. He has had a significant impact on his daily activities, sleep and work. Weight-bearing X-ray of the right hip was performed on 15/03/2024, showing definite joint space narrowing and osteophyte formation. He has been on a documented trial of analgesia, including paracetamol and ibuprofen, and has engaged in an exercise and physiotherapy programme since 01/02/2024. His pain remains moderate to severe, limiting his ability to walk more than a few hundred metres without rest. He is currently unable to perform household tasks without assistance. I recommend referral to the orthopaedics service for further assessment and management.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-067",
+    "specialty": "orthopaedics",
+    "patient_ref": "104389",
+    "nhi": "ZUX62EE",
+    "patient_names": [
+      "Blair Powell",
+      "Powell"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Blair Powell (NHI ZUX62EE), date of birth 24/08/1982, phone 022 841 7146, address Unit 12, 70 Wallace Corner, Tahiweka 5110.  \n\nMr Powell presents with hip and knee osteoarthritis. He has had symptoms for over three months despite first-line management. His condition significantly impacts his daily activities, sleep and work. He has completed a weight-bearing X-ray of the affected joint on 15/03/2024. A documented trial of analgesia and an exercise programme with physiotherapy was undertaken from 01/04/2024 to 30/04/2024. His pain and mobility issues have not improved with these interventions. I recommend referral to the orthopaedics service for further assessment and management.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "40-49",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-068",
+    "specialty": "orthopaedics",
+    "patient_ref": "22498",
+    "nhi": "ZAX92DL",
+    "patient_names": [
+      "Michelle Jackson",
+      "Jackson"
+    ],
+    "scenario": "clear_accept",
+    "ambiguous": false,
+    "referral_note": "Michelle Jackson, NHI ZAX92DL, date of birth 25/10/1963, phone (09) 4468044, address 5 Motuwai Crossing, Barrettborough 8262.  \n\nMs Jackson has been experiencing hip and knee osteoarthritis symptoms for over three months despite first-line management. Her condition has significantly impacted her daily activities, including difficulty walking and climbing stairs, and has affected her sleep and work performance. A weight-bearing X-ray of the right hip was performed on 12/04/2024, showing moderate joint space narrowing and subchondral sclerosis. She has been on a documented trial of analgesia, including paracetamol and ibuprofen, and has followed a structured physiotherapy programme for the last six months. I recommend referral to the orthopaedics service for further assessment and management. Please contact me if you require any additional information.",
+    "gold": {
+      "decision": "READY_TO_SEND",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "60-69",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-069",
+    "specialty": "orthopaedics",
+    "patient_ref": "62832",
+    "nhi": "ZHN88EW",
+    "patient_names": [
+      "Kevin Parata",
+      "Parata"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Kevin Parata (NHI ZHN88EW), date of birth 07/03/1971, phone 027 448 4344, address 678 Tangiwhenua Crest, Waitapu 5797  \n\nMr Parata has been under my care for several months with symptoms of hip and knee osteoarthritis. He reports progressive pain and stiffness in both joints, which has limited his mobility and affected his daily activities. He has tried various conservative measures including physiotherapy and medication, but continues to experience discomfort.  \n\nHe also has a history of suspected fracture after trauma, which was not fully investigated at the time.  \n\nI recommend a thorough orthopaedic assessment to determine the best management plan for his joint symptoms and to further evaluate the possible fracture. Please feel free to contact me if you require any additional information.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-070",
+    "specialty": "orthopaedics",
+    "patient_ref": "78098",
+    "nhi": "ZZT97YA",
+    "patient_names": [
+      "Kim Matthews",
+      "Matthews"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Ms Kim Matthews, NHI ZZT97YA, date of birth 26/01/1975, phone (022) 482-5867, address 67 Stevens Plaza, Kawaaratangi 2423.  \n\nMs Matthews has been experiencing pain and stiffness in her hip and knee for several months, which has progressively worsened. She reports difficulty with daily activities such as walking and climbing stairs. She has been using paracetamol for pain relief, but this has not been sufficient. A recent physical examination revealed limited range of motion in both joints with mild tenderness.  \n\nShe also has a hot, swollen joint with fever.  \n\nI recommend she be referred to the orthopaedics service for further assessment and management. She is otherwise fit and well, with no significant medical history. She is currently taking no regular medications.  \n\nPlease feel free to contact me if further information is required.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-071",
+    "specialty": "orthopaedics",
+    "patient_ref": "79393",
+    "nhi": "ZDC51RP",
+    "patient_names": [
+      "Aroha Fa'asalele",
+      "Fa'asalele"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "Aroha Fa'asalele (NHI ZDC51RP), 41 years, date of birth 17/04/1985, phone (022) 5330958, address 471 Gledhill Broadway, Ngauruwhakatoa 9862.  \n\nMr Fa'asalele has been experiencing symptoms of hip or knee osteoarthritis for more than three months despite first-line management. He has been on a regular analgesic regimen and has participated in an exercise and physiotherapy programme, which has not provided sufficient relief. His condition has significantly impacted his daily activities, including work and sleep. He reports pain that interferes with mobility and limits his ability to perform routine tasks. He is seeking further specialist assessment and potential intervention to manage his symptoms more effectively. I believe a referral to orthopaedics would be appropriate at this stage to explore further treatment options. Please let me know if any additional information is required.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-072",
+    "specialty": "orthopaedics",
+    "patient_ref": "32958",
+    "nhi": "ZTD06WM",
+    "patient_names": [
+      "David Thomas",
+      "Thomas"
+    ],
+    "scenario": "missing_investigation",
+    "ambiguous": false,
+    "referral_note": "David Thomas (NHI ZTD06WM), date of birth 04/02/1974, phone 07 424-7710, address 1 Poawapapapa Way, RD 6, Tipuhanga 8503.\n\nMr Thomas presents with hip and knee osteoarthritis. He has had symptoms for over three months despite first-line management. He has been on a regular analgesia regimen and has participated in an exercise and physiotherapy programme. His symptoms have significantly impacted his daily activities, including walking, climbing stairs, and sleeping. He reports increased pain and stiffness, particularly in the mornings and during prolonged activity. He has difficulty with work-related tasks that require standing or walking. He is seeking further assessment and possible specialist intervention. I recommend referral to the orthopaedics service for evaluation and management. His condition appears to be progressing and he requires a more targeted approach to alleviate his symptoms and improve his quality of life.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Weight-bearing X-ray of the affected joint within the last 12 months"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-073",
+    "specialty": "orthopaedics",
+    "patient_ref": "81636",
+    "nhi": "ZFH22TE",
+    "patient_names": [
+      "Kenneth Ngata",
+      "Ngata"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Kenneth Ngata (NHI ZFH22TE), date of birth 17/10/1976, phone 029-126-2218, address 205 Taumaunga Street, RD 2, Gill Hill 2415.  \n\nMr Ngata has been experiencing mild discomfort in his left knee for the past two months. He reports occasional stiffness and a slight catching sensation, particularly after prolonged sitting or walking. There is no significant limitation in his range of motion, and he is able to perform daily activities without difficulty. He has been taking paracetamol as needed and has made lifestyle adjustments such as reducing high-impact exercise. His symptoms have not progressed, and he remains active with minimal impact on his daily routine.  \n\nHe has no history of trauma or previous joint surgery. X-rays of the knee show mild joint space narrowing, consistent with early osteoarthritis. I recommend a referral to orthopaedics for further assessment and management options.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-074",
+    "specialty": "orthopaedics",
+    "patient_ref": "185020",
+    "nhi": "ZQY19PE",
+    "patient_names": [
+      "Aroha Fisher",
+      "Fisher"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Aroha Fisher, NHI ZQY19PE, date of birth 28/05/1954, phone +64202339740, address Unit 10, 3 Kerr Street, Waitangi 9518.  \n\nMs Fisher has been experiencing hip or knee osteoarthritis symptoms for well over three months. She reports persistent pain and reduced mobility in the affected joint, which has significantly impacted her daily activities. A weight-bearing X-ray of the affected joint was performed on 15/03/2024, showing evidence of joint space narrowing and subchondral sclerosis. She has not responded adequately to conservative management. Given her symptoms and radiographic findings, I recommend a referral to the orthopaedics service for further assessment and potential consideration of surgical intervention. I have attached the relevant imaging for your review. Please let me know if you require any additional information.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "70-79",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-075",
+    "specialty": "orthopaedics",
+    "patient_ref": "193986",
+    "nhi": "ZYV60KK",
+    "patient_names": [
+      "Aroha Small",
+      "Small"
+    ],
+    "scenario": "ambiguous",
+    "ambiguous": true,
+    "referral_note": "Aroha Small (NHI ZYV60KK), date of birth 23/07/1942, phone +64 21 4965652, address 45 Allerby Centre, Pukepo 2312  \n\nMs Small has been experiencing discomfort in her hip and knee joints over the past few months. She reports stiffness and pain that worsens with activity, particularly when walking or standing for prolonged periods. The pain is described as aching and intermittent, with no significant swelling or redness noted. She has not had any recent falls or injuries.  \n\nShe has been managing her symptoms with over-the-counter pain relief, though this has provided only partial relief. She is currently mobile and independent in her daily activities, though she finds it increasingly difficult to perform tasks requiring bending or climbing.  \n\nI recommend she be referred to the orthopaedics service for further assessment and management. I look forward to her review and any further findings.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "80-89",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-076",
+    "specialty": "orthopaedics",
+    "patient_ref": "161214",
+    "nhi": "ZFP03FD",
+    "patient_names": [
+      "Mere Manning",
+      "Manning"
+    ],
+    "scenario": "no_first_line",
+    "ambiguous": false,
+    "referral_note": "Mere Manning (NHI ZFP03FD), date of birth 18/06/1980, phone 03-527-1774, address PO Box 827, Rototipunui 8599.  \n\nMs Manning presents with hip or knee osteoarthritis. She reports persistent pain and stiffness in the affected joint, which has lasted well over three months. She has difficulty with weight-bearing activities and experiences reduced range of motion. A weight-bearing X-ray of the affected joint was performed on 28/04/2024, showing evidence of joint space narrowing and subchondral sclerosis. She has not responded adequately to conservative management.  \n\nI recommend she be referred to the orthopaedics service for further assessment and consideration of appropriate intervention. She is currently managing with minimal analgesia and has not engaged in a structured physiotherapy programme. Her symptoms significantly impact her daily functioning and mobility.  \n\nI look forward to your prompt review and response.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [
+        "Documented trial of analgesia and an exercise or physiotherapy programme"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "40-49",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-077",
+    "specialty": "orthopaedics",
+    "patient_ref": "183248",
+    "nhi": "ZCU88WM",
+    "patient_names": [
+      "Rebecca Fisher",
+      "Fisher"
+    ],
+    "scenario": "ambiguous",
+    "ambiguous": true,
+    "referral_note": "Rebecca Fisher (NHI ZCU88WM), date of birth 06/09/1971, phone (027) 7204899, address Suite 644, 8 Kawawaiwhenua Street, Wakamotupo 7560.  \n\nMs Fisher has been experiencing discomfort in her hip and knee for some time. She reports a gradual onset of pain that has become more persistent and has affected her daily activities. The pain is primarily in the hip area, with some referred discomfort to the knee. She finds it difficult to walk for long periods and has noticed some stiffness, especially in the morning. She hasn’t had any significant swelling or redness, and there’s no history of trauma or previous injury.  \n\nShe has not had any investigations or specific treatment yet. I believe she would benefit from a thorough assessment by an orthopaedic specialist. Please arrange an appointment at your earliest convenience. Thank you for your prompt attention.",
+    "gold": {
+      "decision": "MISSING_INFO",
+      "red_flag": false,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "50-59",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-078",
+    "specialty": "orthopaedics",
+    "patient_ref": "48526",
+    "nhi": "ZBM26XM",
+    "patient_names": [
+      "Joanne Lloyd",
+      "Lloyd"
+    ],
+    "scenario": "below_threshold",
+    "ambiguous": false,
+    "referral_note": "Joanne Lloyd (NHI ZBM26XM), date of birth 17/10/1986, phone (03) 716 1369, address 79 Taunuku Street, Thomastown 6229.  \nMs Lloyd has been experiencing mild discomfort in her left hip for approximately two months. She reports occasional stiffness and a slight catching sensation when moving, but no significant pain or functional limitation. She has been managing symptoms with regular low-impact exercise, over-the-counter analgesics, and heat therapy. Her symptoms have not progressed, and she continues to be able to perform daily activities without difficulty. She has no history of trauma or previous joint surgery. Investigations, including X-ray of the left hip, were normal. I recommend a referral to the orthopaedics service for further assessment and management. The symptoms have not persisted for the required three months, so this referral is made at an earlier stage to ensure timely intervention. I look forward to your response.",
+    "gold": {
+      "decision": "CONSIDER_ALTERNATIVE",
+      "red_flag": false,
+      "required_gaps": [
+        "Acceptance criterion not met: Symptoms for at least 3 months despite first-line management"
+      ],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "female",
+      "age_band": "40-49",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [
+        "possible red-flag wording: trauma"
+      ],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-079",
+    "specialty": "orthopaedics",
+    "patient_ref": "171351",
+    "nhi": "ZPH22YR",
+    "patient_names": [
+      "Sione Ngata",
+      "Ngata"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Sione Ngata (NHI ZPH22YR), date of birth 15/10/1970, phone +64-3-256-2588, address 11 Davidson Street, Manawatangi 9725.  \nMr Ngata has been experiencing pain and stiffness in his hip and knee, which has progressively worsened over the past few months. He has difficulty walking longer distances and climbing stairs. He has tried non-steroidal anti-inflammatory drugs and rest, but symptoms remain unresolved. He has no history of trauma to the affected areas.  \nHe also has a suspected fracture after trauma, though this was not immediately apparent on initial assessment.  \nHe is seeking further specialist review to explore treatment options for his osteoarthritis. I recommend an orthopaedic assessment to evaluate the extent of joint involvement and discuss possible management strategies. His general condition is stable, with no acute complications.  \nPlease feel free to contact me if you require further information.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "50-59",
+      "name_group": "maori_pasifika_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  },
+  {
+    "case_id": "ORTH-080",
+    "specialty": "orthopaedics",
+    "patient_ref": "77764",
+    "nhi": "ZKJ29DF",
+    "patient_names": [
+      "Dean Buchanan",
+      "Buchanan"
+    ],
+    "scenario": "hidden_red_flag",
+    "ambiguous": false,
+    "referral_note": "Dean Buchanan (NHI ZKJ29DF), date of birth 27/06/1952, phone 021 4125457, address Level 4, 75 Tiputanginui Cross, Korotau 1714.\n\nMr Buchanan has been experiencing hip or knee osteoarthritis for some time and has been managing symptoms with regular exercise and medication. He has had difficulty with mobility and is finding it increasingly challenging to perform daily activities. He has also been experiencing some discomfort and stiffness in his joints, particularly in the mornings. Somewhere in the middle of his presentation, it was noted that he also has a hot, swollen joint with fever. He has not had any significant trauma or recent injury. I believe a referral to the orthopaedics service would be beneficial to explore further treatment options and possibly consider joint replacement. I will be happy to provide any additional information or documentation if required.",
+    "gold": {
+      "decision": "URGENT_ESCALATE",
+      "red_flag": true,
+      "required_gaps": [],
+      "criterion_ids": [
+        "ORTHO-01"
+      ]
+    },
+    "fairness": {
+      "sex": "male",
+      "age_band": "70-79",
+      "name_group": "other_name"
+    },
+    "review": {
+      "gp_reviewed": false,
+      "gp_label": null,
+      "needs_check": [],
+      "my_check": null
+    }
+  }
+]
