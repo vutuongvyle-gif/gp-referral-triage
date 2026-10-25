@@ -5,6 +5,9 @@ from langgraph.types import interrupt
 
 from referral_triage.graph.state import ReferralState
 
+from referral_triage.a2a_critic.client import call_critic
+from referral_triage.mcp_servers.client import CALL_LOG
+
 VALID_ACTIONS = {"approve", "edit", "alternative", "reject"}
 
 
@@ -33,10 +36,22 @@ def redact(state: ReferralState) -> dict:
 
 
 # ---------------------------------------------------------------- critic
-# TEMP until section 6: replace with the A2A version from the guide.
+MAX_TOOL_CHARS = 2000   # keep the payload small enough for a local model
+
+
 async def critic_node(state: ReferralState) -> dict:
-    return {"critic": {"verdict": "PASS", "notes": "Critic not connected yet"},
-            "rework_count": state.get("rework_count", 0)}
+    """Send the round's evidence to the independent Critic service over A2A."""
+    rnd = state.get("rework_count", 0)
+    tool_outputs = [{"tool": c["tool"], "output": c["output"][:MAX_TOOL_CHARS]}
+                    for c in CALL_LOG if c["case_id"] == state["case_id"]]
+    verdict = await call_critic({
+        "case_id": state["case_id"],
+        "masked_note": state["masked_note"],
+        "findings": [f for f in state.get("findings", []) if f.get("round", 0) == rnd],
+        "tool_outputs": tool_outputs,
+    })
+    return {"critic": verdict,
+            "rework_count": rnd + (verdict.get("verdict") == "REWORK")}
 
 
 # ---------------------------------------------------------------- GP review (native HITL)
